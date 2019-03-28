@@ -9,7 +9,7 @@ module.exports={
              'import',
              'jsx-a11y',
              'react',
-            'prettier'
+             'prettier'
           ],
     parser:'babel-eslint',
     parserOptions:{
