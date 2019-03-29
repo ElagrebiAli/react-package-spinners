@@ -5,8 +5,8 @@ import style from './style.css';
 export default () => {
   return (
     <>
-      <style>{style}</style>
-      <div className="lds-spinner">
+      <style>{style.toString()}</style>
+      <div className="lds-default">
         <div />
         <div />
         <div />

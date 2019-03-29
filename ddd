@@ -9,7 +9,7 @@ export default [
   {
     input: {
       bundle: 'src/index.js',
-      'bundle.Circle': 'src/Circle/index.js',
+      'bundle.dualRing': 'src/DualRing/index.js',
       'bundle.grid': 'src/Grid/index.js',
       'bundle.spinner': 'src/Spinner/index.js',
     },

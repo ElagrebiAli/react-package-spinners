@@ -28,12 +28,14 @@ module.exports={
 		'function-paren-newline': 'off', 
 		'no-plusplus': 'off',
 		'space-before-function-paren': 0, 
-        'react/jsx-filename-extension': 0,
+        
 		'max-len': ['error', 100, 2, { ignoreUrls: true, }], 
 		'no-console': 'off', 
 		'no-alert': 'error', 
 		'no-param-reassign': 'off', 
 		"radix": "off", 
         'prettier/prettier': ['error'],
+
+        'react/jsx-filename-extension': 0,
     }
 }

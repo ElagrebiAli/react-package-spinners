@@ -5,8 +5,10 @@ import style from './style.css';
 export default () => {
   return (
     <>
-      <style>{style}</style>
-      <div className="lds-dual-ring" />
+      <style>{style.toString()}</style>
+      <div className="lds-circle">
+        <div />
+      </div>
     </>
   );
 };

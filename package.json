@@ -2,10 +2,12 @@
   "name": "react-package-spinners",
   "version": "1.0.0",
   "description": "Spinners for React",
-  "main": "index.js",
+  "main": "dist/cjs/bundle.js",
+  "module": "dist/esm/bundle.js",
+  "sideEffects": false,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prebuild":"rimraf dist && rimraf codeSplitting",
+    "prebuild": "rimraf dist ",
     "build": "rollup -c",
     "lint": "eslint  src/",
     "lint:fix": "eslint  src/ --fix"
@@ -36,8 +38,8 @@
     "@babel/core": "^7.4.0",
     "@babel/preset-env": "^7.4.2",
     "@babel/preset-react": "^7.0.0",
-    "babel-eslint": "^10.0.1",
-    "eslint": "^5.15.3",
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.12.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-jest-enzyme": "^7.0.2",
     "eslint-plugin-babel": "^5.3.0",
@@ -55,5 +57,11 @@
     "rollup-plugin-node-resolve": "^4.0.1",
     "rollup-plugin-string": "^3.0.0",
     "rollup-plugin-terser": "^4.0.4"
+  },
+  "peerDependencies": {
+    "react": "latest"
+  },
+  "engines": {
+    "node": ">=8"
   }
 }

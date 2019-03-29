@@ -5,11 +5,8 @@ import style from './style.css';
 export default () => {
   return (
     <>
-      <style>{style}</style>
+      <style>{style.toString()}</style>
       <div className="lds-grid">
-        <div />
-        <div />
-        <div />
         <div />
         <div />
         <div />
