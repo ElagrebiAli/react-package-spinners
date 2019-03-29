@@ -8,7 +8,7 @@ module.exports={
     plugins:['babel',
              'import',
              'jsx-a11y',
-             'react',
+             'react',   
              'prettier'
           ],
     parser:'babel-eslint',
