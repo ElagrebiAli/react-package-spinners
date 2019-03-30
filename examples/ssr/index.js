@@ -6,12 +6,12 @@ const express = require('express')
 const hbs = require('hbs')
 
 const app = express()
-const PORT = 3000
+const PORT = 4000
  
 
 app.get('*',(req,res)=>{
-    const html = renderToString(createElement(Circle))
-    console.log('html',html)
+    const html = renderToString(createElement(Fragment,null,createElement(Circle),createElement(Spinner),createElement(Grid)))
+    console.log('hey',renderToString(createElement(Circle)))
     res.send(`<!DOCTYPE html>
     <html lang="en">
     <head>

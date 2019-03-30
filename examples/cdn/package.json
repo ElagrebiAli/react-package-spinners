@@ -4,7 +4,7 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-     "start":"serve"
+    "start": "serve"
   },
   "keywords": [],
   "author": "",

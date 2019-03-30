@@ -1,4 +1,4 @@
 node_modules/
 dist/
-codeSplitting/
 examples/
+storybook-static/

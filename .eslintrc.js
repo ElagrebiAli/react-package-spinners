@@ -37,5 +37,6 @@ module.exports={
         'prettier/prettier': ['error'],
 
         'react/jsx-filename-extension': 0,
+        "import/no-extraneous-dependencies": ["error", {"devDependencies": true, "optionalDependencies": false, "peerDependencies": false}]
     }
 }

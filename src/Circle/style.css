@@ -2,7 +2,7 @@
   display: inline-block;
   transform: translateZ(1px);
 }
-.lds-circle > div {
+.lds-circle  div {
   display: inline-block;
   width: 51px;
   height: 51px;
